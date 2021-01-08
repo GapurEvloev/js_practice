@@ -1,0 +1,27 @@
+.task-wrapper {
+	border-bottom: 3px dashed #ccc;
+	padding: 30px 50px;
+}
+
+.input-group .btn:not(:last-child) {
+	margin-right: 30px;
+}
+
+.input {
+	margin: 0 50px 30px 30px;
+}
+
+.btn {
+	padding: 10px 50px;
+	background-color: navy;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.color-block {
+	margin-top: 30px;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border: 3px solid #000;
+}

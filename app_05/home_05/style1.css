@@ -1,0 +1,18 @@
+.task1 * {
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+}
+nav{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 20px;
+	list-style: none;
+	justify-content: center;
+}
+li:not(:first-child) {
+	margin-left: 20px;
+}

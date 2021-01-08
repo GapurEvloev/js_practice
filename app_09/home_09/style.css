@@ -1,0 +1,31 @@
+.container {
+    max-width: 1200px;
+    padding: 30px 30px;
+    margin: auto;
+}
+
+.task {
+    border-bottom: 1px dashed #666666;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.input {
+    border: 2px solid #757575;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+.line {
+    padding: 10px;
+    border: 1px solid black;
+    height: 150px;
+}
+
+.sq {
+    width: 50px;
+    height: 50px;
+    background: #000;
+}

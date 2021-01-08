@@ -1,0 +1,14 @@
+.tabs {
+    border: 1px solid #666666;
+    padding: 10px;
+    margin: 50px;
+}
+
+.tab {
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.active {
+    text-decoration: underline;
+}

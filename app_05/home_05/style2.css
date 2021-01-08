@@ -1,0 +1,19 @@
+.task1 * {
+    color: #000;
+    background-color: transparent;
+    text-align: left;
+    font-family: serif;
+}
+
+.task1 nav,
+.task1 button,
+.task1 hr,
+.task1 img {
+	display: none;
+}
+
+.task1 h1,
+.task1 p,
+.task1 span {
+	display: block;	
+}

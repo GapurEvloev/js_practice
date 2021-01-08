@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Урок 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="task-wrapper">
+        <h3>Выберите фон страницы:</h3>
+        <div class="input-group">
+            <span>Выбери цвет:</span>
+            <input type="color" id="page-bg-input-1" class="input input-color" name="color">
+            <button class="btn" id="btn-bg-change">Apply</button>
+        </div>
+    </div>
+    <div class="task-wrapper">
+        <h3>Выберите фон страницы и цвет шрифта:</h3>
+        <div class="input-group">
+            <span>Выбери цвет фона:</span>
+            <input type="color" id="page-bg-input-2" class="input input-color" name="color">
+            <span>Выбери цвет шрифта:</span>
+            <input type="color" id="font-color-input" class="input input-color" name="color">
+            <button class="btn" id="btn-apply-change">Apply</button>
+            <button class="btn" id="btn-reset">Reset</button>
+        </div>
+    </div>
+    <div class="task-wrapper">
+        <h3>Выбери размер шрифта:</h3>
+        <div class="input-group">
+            <input type="range" id="range-fz" class="input input-range" min="14" max="48" step="1" value="16">
+            <p>Шрифт: <span id="range-value-out">16</span>px</p>
+        </div>
+        <div class="text-block">
+            <p class="text-block__pgf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita id fugit minus sapiente aliquam asperiores distinctio quasi vel. Suscipit, corporis, adipisci nesciunt perspiciatis at accusantium natus nulla eveniet vitae saepe?</p>
+        </div>
+
+    </div>
+    <div class="task-wrapper" style="display: flex;">
+        <div class="range-block" style="width: 400px">
+            <h3>Выбери цвет:</h3>
+            <div class="range-group">
+                <input type="range" id="range-color-1" class="input input-range" min="0" max="255" step="1" value="100" oninput="changeBg()">
+                <span id="color-out-1">100</span>   
+            </div>
+            <div class="range-group">
+                <input type="range" id="range-color-2" class="input input-range" min="0" max="255" step="1" value="100" oninput="changeBg()">
+                <span id="color-out-2">100</span>    
+            </div>
+            <div class="range-group">
+                <input type="range" id="range-color-3" class="input input-range" min="0" max="255" step="1" value="100" oninput="changeBg()">
+                <span id="color-out-3">100</span>    
+            </div>
+        </div>
+        <div class="color-block">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
